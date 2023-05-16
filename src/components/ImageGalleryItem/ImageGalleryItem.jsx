@@ -21,8 +21,8 @@ export class ImageGalleryItem extends Component {
     return (
       <>
         <GalleryItem key={img.id} onClick={this.openModal}>
-          // <GalleryImage src={img.webformatURL} alt={img.tags}></GalleryImage>
-          //{" "}
+           <GalleryImage src={img.webformatURL} alt={img.tags}></GalleryImage>
+          
         </GalleryItem>
         {showModal && (
           <Modal onClose={this.closeModal}>
